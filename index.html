@@ -5,13 +5,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20220819123044" />
-    <link href="css/style.min.css?_v=20220819123044" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20220819155134" />
+    <link href="css/style.min.css?_v=20220819155134" rel="stylesheet">
     <title>Main</title>
 </head>
 
 <body>
-    <header class="header">
+    <main>
+        <div class="bg_decoration ibg">
+            <picture><source srcset="img/background/BACKGROUND.webp" type="image/webp"><img src="img/background/BACKGROUND.png" alt="alt"></picture>
+            <header class="header">
    <div class="container">
       <div class="header__body">
 
@@ -36,66 +39,68 @@
       </div>
    </div>
 </header>
-    <main>
 
-
-        <section class="top__section">
+            <section class="top__section">
    <div class="container">
       <div class="section__container">
          <div class="section__block section">
-            <div class="top__section-body">
+            <div class="section__block-container">
+               <div class="top__section-body">
 
-               <h1 class="section__title ">
-                  Discover
-                  collect, & sell
-                  <span class="color__title">Extraordinary</span>
-                  NFTs
-               </h1>
-               <div class="section__text">
-                  The leading NFT Marketplace on Ethereum Home to the next generation of digital creators.Discover
-                  the
-                  best NFT collections.
+                  <h1 class="section__title ">
+                     Discover
+                     collect, & sell
+                     <span class="color__title">Extraordinary</span>
+                     NFTs
+                  </h1>
+                  <div class="section__text">
+                     The leading NFT Marketplace on Ethereum Home to the next generation of digital creators.Discover
+                     the
+                     best NFT collections.
+                  </div>
+
+                  <div class="links__container">
+                     <a href="#" class="link_color">Explore</a>
+                     <a href="#" class="link">Create</a>
+                  </div>
+
+
+
                </div>
-
-               <div class="links__container">
-                  <a href="#" class="link_color">Explore</a>
-                  <a href="#" class="link">Create</a>
+               <div class="section__statistic">
+                  <div class=" statistics">
+                     <span class="statistics__count">
+                        432K+
+                     </span>
+                     <span class="statistics__name">
+                        Collections
+                     </span>
+                  </div>
+                  <div class=" statistics">
+                     <span class="statistics__count">
+                        200K+
+                     </span>
+                     <span class="statistics__name">
+                        Artists
+                     </span>
+                  </div>
+                  <div class=" statistics">
+                     <span class="statistics__count">
+                        10K+
+                     </span>
+                     <span class="statistics__name">
+                        Community
+                     </span>
+                  </div>
                </div>
-
-
-
             </div>
-            <div class="section__statistic">
-               <div class=" statistics">
-                  <span class="statistics__count">
-                     432K+
-                  </span>
-                  <span class="statistics__name">
-                     Collections
-                  </span>
-               </div>
-               <div class=" statistics">
-                  <span class="statistics__count">
-                     200K+
-                  </span>
-                  <span class="statistics__name">
-                     Artists
-                  </span>
-               </div>
-               <div class=" statistics">
-                  <span class="statistics__count">
-                     10K+
-                  </span>
-                  <span class="statistics__name">
-                     Community
-                  </span>
-               </div>
-            </div>
-
          </div>
+
+
          <div class="section__image">
             <picture><source srcset="img/main/head_img.webp" type="image/webp"><img loading="lazy" src="img/main/head_img.png" alt="alt"></picture>
          </div>
+
       </div>
 
 
@@ -141,9 +146,7 @@
    </div>
 
 </section>
-
-
-        <section class="block__trending block">
+            <section class="block__trending block">
    <div class="block__trending-container">
 
       <div class="container">
@@ -366,13 +369,7 @@
    </div>
 
 </section>
-        <div class="decoration__container">
-
-
-   <div class="block__decoration-big">
-      <picture><source srcset="img/background/bi.webp.webp" type="image/webp"><img src="img/background/bigpng.png" alt="alt"></picture>
-   </div>
-</div>
+            
 <section class="collection__block block">
 
 
@@ -781,7 +778,7 @@
    </div>
 
 </section>
-        <section class="categories__block block">
+            <section class="categories__block block">
    <div class="container">
 
       <div class=" block__title">
@@ -882,7 +879,7 @@
       </div>
    </div>
 </section>
-        <section class="create__block block">
+            <section class="create__block block">
    <div class="container">
       <div class="create__block-container">
 
@@ -948,7 +945,7 @@
       </div>
    </div>
 </section>
-        <section class="article__block block">
+            <section class="article__block block">
    <div class="container">
       <div class="acticle__block-container">
 
@@ -1025,11 +1022,8 @@
       </div>
    </div>
 
-   <div class="article__deco">
-      <!--<picture><source srcset="img/background/article.webp" type="image/webp"><img loading="lazy" src="img/background/article.png" alt="alt"></picture>-->
-   </div>
 </section>
-        
+            
 <section class="join__block block">
    <div class="container">
       <div class="join__block-container">
@@ -1055,8 +1049,8 @@
       </div>
    </div>
 </section>
-    </main>
-    <footer>
+
+            <footer>
    <div class="container">
       <div class="footer">
          <div class="footer__decoration"></div>
@@ -1172,7 +1166,9 @@
       </div>
    </div>
 </footer>
-    <script src="js/app.min.js?_v=20220819123044"></script>
+        </div>
+    </main>
+    <script src="js/app.min.js?_v=20220819155134"></script>
 </body>
 
 </html>
